@@ -1,0 +1,218 @@
+﻿body 
+{
+    font-family: Arial sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after
+{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+div
+{
+    box-sizing: border-box;
+}
+header
+{
+    background: url(images/serving.jpg) no-repeat center top / cover;
+    padding-bottom: 160px;
+    position: relative;
+    height: 100vh;
+}
+.container
+{
+    width: 930px;
+    margin: 0 auto;
+}
+.logo
+{
+    margin-top: 41px;
+    float: left;
+    padding-left: -90px;
+}
+nav
+{
+    float: right;
+    margin-top: 53px;
+}
+.menu
+{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li
+{
+    float: left;
+    display: block;
+    margin-right: 40px;
+}
+.menu li a {
+   color: azure;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 14px;
+   transition: all 0.3s;
+}
+.menu li a:hover
+{
+    color: rgba(255, 255, 255, 0.48);
+}
+.titles__first 
+{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 150px;
+}
+h1 {
+    font-size: 70px;
+    color: #00ffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button {
+    background: #ffd800;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.button:hover
+{
+    background: rgba(255, 216, 0, 0.93);
+}
+.title
+{
+    padding-top: 115px;
+}
+.title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+.title p
+{
+    color: cadetblue;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.services 
+{
+    margin-top: 50px;
+}
+.services__item
+{
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+.services__item h3
+{
+    font-size: 18px;
+    margin-bottom: 18px;
+
+}
+.services__item p
+{
+    font-size: 14px;
+    color: dimgrey;
+}
+.services__item:last-child
+{
+    float: right;
+}
+.services__item:nth-child(2) 
+{
+   margin-left: 50px;
+}
+#news
+{
+    background: url(images/news.jpg) no-repeat center / cover;
+    padding-bottom: 150px;
+    position: relative;
+    top: 215px;
+}
+.new h2
+ {
+     color: aliceblue;
+ }
+ .new p 
+ {
+     color: azure;
+ }
+.title__contact 
+{
+    padding-top: 315px;
+}
+.title__contact h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+.contacts 
+{
+    margin-top: 50px;
+}
+.contacts__item 
+{
+    width: 210px;
+    float: left;
+    text-align: center;
+}
+.contacts__item h3 
+{
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.detail
+{
+    padding-top: 120px;
+    float: left;
+}
+#about 
+{
+    background: url(images/about.jpg) no-repeat center / cover;
+    padding-bottom: 270px;
+    position: relative;
+    top: 111px;
+}
+.abouts h2
+{
+    color: white;
+}
+.abouts p
+{
+    color: azure;
+}
+#end {
+    background: #242424;
+    padding-bottom: 130px;
+    position: relative;
+    top: 110px;
+}
+.credits {
+    color: white;
+    font-size: 16px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
